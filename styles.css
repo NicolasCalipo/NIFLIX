@@ -1,0 +1,86 @@
+body {
+    color:white;
+    background: black;
+    margin: 8px;
+    font-family: "Agdasima", sans-serif;
+
+}
+
+header{
+    border-bottom: solid 2px rgb(5, 205, 78);
+    padding: 20px;
+    font-size: 45px;
+    color: rgb(5, 205, 78);
+
+    
+}
+
+.principal{
+    background: white;
+    color: black;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+
+.chamada-texto{
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.chamada-video{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+    
+}
+
+h1{
+    font-size: 57px;
+}
+
+p{
+    font-size: 35px;
+}
+
+img{
+    height: 206px
+   
+}
+
+.categoria-mais{
+    display: flex;
+    overflow-x: auto;
+    gap: 7px;
+}
+
+.mais-videos{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(71, 21, 7);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.mais-videos img{
+    opacity: 0.5;
+}
+
+.mais-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid green;
+}
